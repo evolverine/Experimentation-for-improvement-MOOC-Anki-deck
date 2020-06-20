@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, it's often good practice to discuss the change you wish to make via [github issues](https://github.com/evolverine/covid-19-anki-deck/issues) before making a change.
+When contributing to this repository, it's often good practice to discuss the change you wish to make via [github issues](ttps://github.com/evolverine/Experimentation-for-improvement-MOOC-Anki-deck/issues) before making a change.
 
 Please note we have a code of conduct (see below), please follow it in all your interactions with the project.
 
