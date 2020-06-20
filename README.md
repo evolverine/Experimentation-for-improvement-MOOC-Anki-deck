@@ -13,11 +13,11 @@ I hope this deck can support others taking the course, or even people who have a
 Note that the optimization chart background only appears if the card is tagged with the "experimentation-for-improvement" tag.
 
 # How to keep up to date with changes and additions
-Repeat step 3 above, ideally on a daily basis.
+Repeat step 3 above, ideally on a regular basis.
 The one limitation is that if a note is removed in this deck this won't be reflected in your personal deck. But we will try to keep this in mind and, when necessary, change the content of notes instead of deleting them.
 
 # How to contribute
-There are two ways: through git or through opening an issue on github.
+There are two ways: through `git`, or through opening an issue on github.
 
 ## 1. Through `git`
 Some basic knowledge of `git` is necessary for this. (If you don't know what `git` is, best to use the second method, below.) 
