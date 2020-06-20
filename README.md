@@ -10,7 +10,7 @@ I hope this deck can support others taking the course, or even people who have a
 2. Install [the CrowdAnki add-on](https://ankiweb.net/shared/info/1788670778) and restart Anki Desktop.
 3. From Anki Desktop, `select File -> CrowdAnki: Import from git repository`. Enter *https://github.com/evolverine/Experimentation-for-improvement-MOOC-Anki-deck* in the dialog that appears and click `OK`. The "Experimentation for improvement MOOC" deck should appear, and you can start studying it.
 
-Note that the blue-viruses background image only appears if the card is part of a (sub)deck with "COVID-19" in its name (which is the default).
+Note that the optimization chart background only appears if the card is tagged with the "experimentation-for-improvement" tag.
 
 # How to keep up to date with changes and additions
 Repeat step 3 above, ideally on a daily basis.
