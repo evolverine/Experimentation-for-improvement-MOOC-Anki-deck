@@ -57,6 +57,7 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
+        "2 factor table.png",
         "paste-85f447a2fad795cb739d4fab14dcdddc10ae75f6.jpg",
         "plots.png"
     ],
@@ -267,7 +268,7 @@
             "fields": [
                 "Objective",
                 "A desired change in outcome",
-                "https://www.coursera.org/learn/experimentation/lecture/oaSsT/1b-some-basic-terminology",
+                "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
                 "✔️"
             ],
@@ -283,8 +284,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The way numeric and categorical factors differ in terms of their possible values",
-                "Categorical factors can only take the limited set of values, while numeric ones may, at least in principle, take values in-between those tested as well.",
+                "The way <i>numeric</i> and <i>categorical</i> factors differ in terms of possible values",
+                "<i>Categorical</i> factors can only take the limited set of values, while<div><i>numeric</i> factors may, at least in principle, take values in-between / beyond those tested as well</div>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
                 ""
@@ -293,7 +294,6 @@
             "guid": "q:d=64ElTC",
             "note_model_uuid": "f0dd73fe-6576-11ea-923b-ac72899d63fe",
             "tags": [
-                "Marked",
                 "definition",
                 "experimentation-for-improvement",
                 "statistics"
@@ -304,7 +304,7 @@
             "data": "",
             "fields": [
                 "What distinguishes an <i>ordinal</i> variable/factor from an <i>interval</i> variable/factor?",
-                "For <i>ordinal</i> variables the difference between two values is not meaningful (eg. movie ratings), while for <i>interval</i> variables the difference is meaningful (eg. between 90 and 100 degrees).",
+                "For <i>ordinal</i> variables the difference between two values <b>is not</b> meaningful (eg. movie ratings), while<div>for <i>interval</i> variables the difference <b>is</b> meaningful (eg. between 90 and 100 degrees)</div>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "",
                 ""
@@ -322,7 +322,7 @@
             "data": "",
             "fields": [
                 "What is the main difference between <i>interval</i>&nbsp;and <i>ratio </i>variables/factors?",
-                "<i>Interval </i>variables don't have a meaningful 0, while <i>ratio</i>&nbsp;ones do.",
+                "<i>Interval </i>variables don't have <b>a meaningful 0</b>, while <i>ratio</i>&nbsp;ones do.",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
                 ""
@@ -339,9 +339,9 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Why are <i>ratio</i>&nbsp;variables named as they are?",
-                "Because for such variables it is meaningful to compare ratios of different values.",
-                "http://www.graphpad.com/support/faqid/1089/",
+                "Reason behind naming&nbsp;<i>ratio</i>&nbsp;variables \"<i>ratio</i>\"",
+                "For such variables it is meaningful to compare ratios of different values",
+                "What is the difference between ordinal, interval and ratio variables? Why should I care? - FAQ 1089 - GraphPad. Retrieved June 20, 2020, from https://www.graphpad.com/support/faqid/1089/",
                 "Terminology of experiments",
                 ""
             ],
@@ -357,11 +357,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What are the 4 basic ways of visualising 2-factor experiments using pen and paper?",
+                "The 4 basic ways of visualising 2-factor experiments using pen and paper",
                 "Table, cube plot, contour plot, interaction plot<div><br></div><div><img src=\"plots.png\" /></div>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "",
-                ""
+                "✔️"
             ],
             "flags": 0,
             "guid": "K,@d}cqfrQ",
@@ -376,7 +376,7 @@
             "data": "",
             "fields": [
                 "The prediction formula for a 2-factor experiment",
-                "baseline + b<sub>A</sub> * x<sub>A</sub>&nbsp;+ b<sub>B</sub> * x<sub>B</sub>&nbsp;+ interaction *x<sub>A&nbsp;</sub>*x<sub>B</sub>",
+                "baseline + b<sub>A</sub> * x<sub>A</sub>&nbsp;+ b<sub>B</sub> * x<sub>B</sub>&nbsp;+ interaction * x<sub>A&nbsp;</sub>* x<sub>B</sub>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "",
                 "✔️"
@@ -393,29 +393,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "(A factor's) main effect",
-                "The average of the outcome changes created by that factor.",
-                "https://www.coursera.org/learn/experimentation/lecture/q1Eh7/2c-two-factor-experiments-with-interactions",
-                "Statistical analysis",
-                "✔️"
-            ],
-            "flags": 0,
-            "guid": "xVB5MAxg|~",
-            "note_model_uuid": "f0dd73fe-6576-11ea-923b-ac72899d63fe",
-            "tags": [
-                "experimentation-for-improvement",
-                "statistics"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "The aspect we care about improving",
-                "outcome",
+                "Outcome",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
-                "✔️"
+                ""
             ],
             "flags": 0,
             "guid": "|nE<B",
@@ -429,8 +411,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "If an experiment's outcome is pollution, what will its objective likely be?",
-                "Reducing pollution",
+                "Say an experiment's outcome is pollution levels. What will its objective likely be?",
+                "Reducing pollution levels",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
                 ""
@@ -485,7 +467,7 @@
             "data": "",
             "fields": [
                 "Columns for 2-factor tabular experiment analysis by hand",
-                "Order - standard and actual; 2 x factors; and outcome(s)",
+                "- Standard Order<div>- Actual order<br><div>- Factor A</div><div>- Factor B</div><div>- Outcome(s)</div></div><div><br></div><div><img src=\"2 factor table.png\"><br></div>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "",
                 ""
@@ -502,11 +484,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "what does <b>baseline</b> represent?",
-                "the average of the outcomes",
+                "Baseline =",
+                "The average of the outcomes",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "prediction formula for a factorial experiment",
-                ""
+                "Factorial experiments' prediction formula",
+                "✔️"
             ],
             "flags": 0,
             "guid": "egTq.aqS7=",
@@ -520,10 +502,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In the prediction formula for a two-factor experiment, what does <b>MeffA</b> stand for?",
+                "<b>b<sub>A</sub></b>&nbsp;represents",
                 "Main effect of factor A<br>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Factorial experiments' prediction formula",
                 ""
             ],
             "flags": 0,
@@ -538,10 +520,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In the prediction formula for a two-factor experiment, what does x<sub>A</sub> represent?",
-                "A coded variable containing the equivalent value of factor A on a -1..1 interval",
+                "<b>x<sub>A</sub></b> represents",
+                "A coded variable whose value is the equivalent value of factor A on a -1..1 interval",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Statistical experiment design",
+                "Factorial experiments' prediction formula",
                 ""
             ],
             "flags": 0,
@@ -558,9 +540,9 @@
             "data": "",
             "fields": [
                 "Interaction between two factors / variables",
-                "The effect of one factor depends on the value of the other",
+                "The effect of one factor depends on the value of another",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Terminology of experiments",
                 "✔️"
             ],
             "flags": 0,
@@ -576,9 +558,9 @@
             "data": "",
             "fields": [
                 "Optimal number of outcomes to measure in an experiment",
-                "as many as possible",
+                "As many as possible (given the constraints)",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Statistical experiment design",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -596,7 +578,7 @@
                 "In terms of objectivity, the outcomes should be",
                 "as objective as possible",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Statistical experiment design",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -614,7 +596,7 @@
                 "On an interaction plot, we have evidence that two variables may interact when",
                 "their plot lines are not parallel",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Statistical experiment analysis",
+                "Experiment analysis",
                 ""
             ],
             "flags": 0,
@@ -630,10 +612,10 @@
             "data": "",
             "fields": [
                 "Main effect of a factor",
-                "the average of the outcome increment given by that factor",
+                "The average of the outcome increment given by a factor",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Statistical experiment analysis",
-                ""
+                "✔️"
             ],
             "flags": 0,
             "guid": ".4`s1H?0d",
@@ -647,10 +629,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "In the prediction formula for a two-factor experiment, what does&nbsp;<b>interaction</b>&nbsp;represent?",
-                "half the difference between one of the factor's effects",
+                "<b>interaction</b>&nbsp;represents",
+                "half the difference between either of the factor's effects",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Statistical experiment analysis",
+                "Factorial experiments' prediction formula",
                 ""
             ],
             "flags": 0,
@@ -666,7 +648,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Another name for baseline",
+                "Another name for <i>baseline</i>",
                 "Intercept",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
@@ -684,7 +666,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Another name for outcome",
+                "Another name for <i>outcome</i>",
                 "Response",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
@@ -703,8 +685,8 @@
             "data": "",
             "fields": [
                 "Give an example of a ratio variable",
-                "Weight, height, temperature in F",
-                "http://www.graphpad.com/support/faqid/1089/",
+                "Any of weight, height, temperature in F",
+                "What is the difference between ordinal, interval and ratio variables? Why should I care? - FAQ 1089 - GraphPad. Retrieved June 20, 2020, from https://www.graphpad.com/support/faqid/1089/",
                 "Terminology of experiments",
                 ""
             ],
@@ -720,9 +702,9 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Why is weight a ratio variable? (2 reasons)",
+                "Why is weight a <i>ratio</i> variable? (2 reasons)",
                 "because it's meaningful to say that<div>- 0g is the absence of weight</div><div>- 4g is double 2g</div>",
-                "http://www.graphpad.com/support/faqid/1089/",
+                "What is the difference between ordinal, interval and ratio variables? Why should I care? - FAQ 1089 - GraphPad. Retrieved June 20, 2020, from https://www.graphpad.com/support/faqid/1089/",
                 "Terminology of experiments",
                 ""
             ],
@@ -738,7 +720,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What operations on the values of categorical factors are meaningless?",
+                "Operations that are meaningless on the values of <i>categorical</i> factors",
                 "measurement and calculations",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
@@ -756,8 +738,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Give an example of an <i>interval</i>&nbsp;variable / factor",
-                "temperature in °C, dates",
+                "Give an example of an <i>interval</i>&nbsp;variable",
+                "Any of temperature in °C, dates",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
                 ""
@@ -775,7 +757,7 @@
             "data": "",
             "fields": [
                 "Disturbance",
-                "A variable that's not controlled, nor measured, but affects the output.",
+                "A variable that's not controlled, nor measured, but which affects the output.",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
                 "✔️"
@@ -867,7 +849,7 @@
                 "It's recommended to start with a baseline experiment. What values are the variables set to?",
                 "0 (or their centers), or the most convenient setting for categorical factors",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -904,7 +886,7 @@
                 "A*A, B*B, etc. =",
                 "I, or \"identity\"",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Terminology of experiments",
+                "Experiment analysis",
                 ""
             ],
             "flags": 0,
@@ -919,7 +901,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "\"Word\"",
+                "<i>Word</i>",
                 "collection of sequential factor letters, e.g. \"ABD\"",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
                 "Terminology of experiments",
@@ -976,7 +958,7 @@
                 "First item in the defining relationship&nbsp;",
                 "I, or identity",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -994,7 +976,7 @@
                 "Resolution-III designs will have interactions between the main effects and",
                 "two factor interactions",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -1012,7 +994,7 @@
                 "Resolution-IV designs will have interactions between the main effects and",
                 "three-factor interactions",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -1030,7 +1012,7 @@
                 "Resolution-IV designs will have interactions between two-factor interactions and",
                 "other two-factor interactions",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -1048,7 +1030,7 @@
                 "Resolution-V designs will have interactions between main effects and",
                 "four-factor interactions",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -1066,7 +1048,7 @@
                 "Resolution-V designs will have interactions between two-factor interactions and",
                 "three-factor interactions",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of experiments",
                 ""
             ],
             "flags": 0,
@@ -1100,9 +1082,9 @@
             "data": "",
             "fields": [
                 "Recommended way of dealing with covariates",
-                "Measure and add them next to the factors.",
+                "Measure and add them next to the factors",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 ""
             ],
             "flags": 0,
@@ -1121,7 +1103,7 @@
                 "Utility of measuring covariates (2)",
                 "they can help understand unusual results, and as additional regression variables in the model to separate their effect",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 ""
             ],
             "flags": 0,
@@ -1139,7 +1121,7 @@
                 "Formula for calculating the coded value corresponding to a real-world value",
                 "\\[\\frac{realValue - centerValue}{\\frac{1}{2}(value_{+1} - value_{-1})}\\]",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 "✔️"
             ],
             "flags": 0,
@@ -1157,7 +1139,7 @@
                 "Formula for calculating the real-world value corresponding to the center (0) coded value",
                 "\\[\\frac{value_{-1} + value_{+1}}{2}\\]",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 "✔️"
             ],
             "flags": 0,
@@ -1175,7 +1157,7 @@
                 "Formula for calculating the real-world value corresponding to a coded value",
                 "\\[codedValue * \\frac{1}{2}range + centerValue\\]",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 "✔️"
             ],
             "flags": 0,
@@ -1193,7 +1175,7 @@
                 "Recommended factorial range for the first optimization design",
                 "25% of the extreme range",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1211,7 +1193,7 @@
                 "Which experiment run is it useful to repeat to get an idea of the noise in the system?",
                 "The baseline experiment",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1229,7 +1211,7 @@
                 "Reason of doing multiple runs of the baseline experiment",
                 "To get an idea of the noise in the system",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1247,7 +1229,7 @@
                 "\\[𝚫coded value =\\]",
                 "\\[\\frac{𝚫real world value}{\\frac{1}{2}*range} =\\]",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 "✔️"
             ],
             "flags": 0,
@@ -1281,7 +1263,7 @@
                 "\\[\\frac{𝚫x_A}{𝚫x_B}\\] =",
                 "\\[\\frac{b_A}{b_B}\\] =",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Fastest way up the surface model",
+                "Design of optimization experiments - fastest way of \"climbing the hill\"",
                 "✔️"
             ],
             "flags": 0,
@@ -1299,7 +1281,7 @@
                 "As we approach the peak, in which direction do we want to gradually change the value of the range for our experiment designs",
                 "downwards",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1317,7 +1299,7 @@
                 "First step for deciding the next location of the next experiment",
                 "pick a change in the coded units of one factor (\\[𝚫x_A, 𝚫x_B\\], etc.)",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1335,7 +1317,7 @@
                 "When starting a new experiment, once we've picked a change in coded units in one factor (\\[𝚫x_A, 𝚫x_B\\], etc.), we can",
                 "calculate the changes in the other factors' coded variables (\\[𝚫x_B, 𝚫x_A\\], etc.)",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1353,7 +1335,7 @@
                 "Once we've chosen the real-world location(s) of the next experiment baseline, we can now",
                 "convert these values back into coded units",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1368,10 +1350,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "When gauging the adequacy, or fit, of the model, we compare the error in the baseline experiment prediction to...",
+                "When gauging the adequacy, or fit, of the model, we compare the error in the baseline experiment prediction to",
                 "the noise, if we have it, and/or to the lowest main effect",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Experiment analysis",
                 ""
             ],
             "flags": 0,
@@ -1389,7 +1371,7 @@
                 "When making an error in an experiment's factors, or when needing to change the factors for safety or other reasons, we can still use it by",
                 "recording it with coded units based on the original center",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Experiment analysis",
                 ""
             ],
             "flags": 0,
@@ -1440,10 +1422,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Curvature is more likely when the spread in outcomes between subsequent experiments changes in which direction",
+                "Curvature is more likely to appear when the spread in outcomes between subsequent experiments changes in which direction",
                 "Decreases",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1479,7 +1461,7 @@
                 "Formula for determining&nbsp;𝛂 in (circumscribed) central composite designs",
                 "\\[2^{\\frac{k}{4}}\\], where k = number of factorial runs",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 "✔️"
             ],
             "flags": 0,
@@ -1497,7 +1479,7 @@
                 "In a central composite design, which experiment runs are recommended to be run first?",
                 "the factorial points",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1515,7 +1497,7 @@
                 "In a central composite design, which experiment runs are recommended to be run last?",
                 "the star points",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1533,7 +1515,7 @@
                 "What do central composite designs add to factorial designs in terms of experimental runs?",
                 "a group of star points where to run experiments",
                 "5.3.3.6.1. Central Composite Designs (CCD). Retrieved May 30, 2020, from https://www.itl.nist.gov/div898/handbook/pri/section3/pri3361.htm",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1551,7 +1533,7 @@
                 "Why central composite designs add a group of star points&nbsp;to factorial designs",
                 "to allow a better estimation of curvature (interaction)",
                 "5.3.3.6.1. Central Composite Designs (CCD). Retrieved May 30, 2020, from https://www.itl.nist.gov/div898/handbook/pri/section3/pri3361.htm",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1569,7 +1551,7 @@
                 "When running central composite designs the recommendation is to add multiple experiment runs for which point",
                 "the center point",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1587,7 +1569,7 @@
                 "If the outcome at a new point in the steepest direction is accurately predicted by the latest model, it's recommended to",
                 "keep going in that direction until the prediction becomes inadequate",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1602,10 +1584,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "R formula for creating a linear model for a two-factor experiment that ignores the interaction",
+                "Instruction for creating a linear model for a two-factor experiment that ignores the interaction",
                 "lm(y ~ A + B)",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Experiment analysis in R",
                 "✔️"
             ],
             "flags": 0,
@@ -1620,10 +1602,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "R formula for creating a linear model for a two-factor experiment that takes the interaction into account",
+                "Instruction for creating a linear model for a two-factor experiment that takes the interaction into account",
                 "lm(y ~ A * B)",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Experiment analysis in R",
                 "✔️"
             ],
             "flags": 0,
@@ -1641,7 +1623,7 @@
                 "How do we know when to stop running optimization experiments?",
                 "When the model's predicted surface accurately matches reality",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "Optimization experiments",
+                "Design of optimization experiments",
                 ""
             ],
             "flags": 0,
@@ -1675,9 +1657,9 @@
             "data": "",
             "fields": [
                 "The two steps to find the predicted maximum of a quadratic two-factor model",
-                "1. differentiating the y = ... equation with respect to the coded variables<div>2. solving the resulting two-equation system</div>",
+                "1. differentiating the <i>y = ...</i> equation with respect to the coded variables<div>2. solving the resulting two-equation system</div>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 "✔️"
             ],
             "flags": 0,
@@ -1695,7 +1677,7 @@
                 "The first step (of two) for finding the predicted maximum of a quadratic two-factor model",
                 "differentiating the factorial equation with respect to the coded variables<div><br></div><div><img src=\"paste-85f447a2fad795cb739d4fab14dcdddc10ae75f6.jpg\"><br></div>",
                 "\"Experimentation for Improvement\" MOOC, taught by Kevin Dunn from McMaster University",
-                "",
+                "Experiment analysis",
                 "✔️"
             ],
             "flags": 0,
